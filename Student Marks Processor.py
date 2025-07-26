@@ -1,3 +1,9 @@
+# Introduction  -|
+# ---------------|
+# Python Assingnment for the week 1 while being a part of the Data Science internship team at Zeno Talent under the guidance of Aishwarya. The assignment
+# involves building a student grading system that reads marks from a file, calculates overall scores, assigns grades, sorts students, and logs results.
+
+
 import numpy as np
 # importing numpy library for array operations
 
@@ -87,3 +93,9 @@ if raw_data:
     
     res(np_array, output)
     statistics(np_array)
+
+
+# Conclusion  -|
+# -------------|
+# In this Week 1 assignment, I worked on gaining hands-on experience with file handling, NumPy structured arrays, sorting techniques, and implementing
+# grading logic from real-world education systems.
