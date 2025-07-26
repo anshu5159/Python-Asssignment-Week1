@@ -1,3 +1,8 @@
+# Introduction  -|
+# ---------------|
+# Python Assingnment for the week 1 while being a part of the Data Science internship team at Zeno Talent under the guidance of Aishwarya. The assignment
+# involves generating all prime numbers within a user-defined range, applying input validation and formatted output.
+
 def prime(n):
     # to check if a given number n is a prime number
     if n < 2:
@@ -42,3 +47,7 @@ if start is not None:
         print(" ".join(prime_no[i:i+10]))
         # for loop prints 10 prime numbers per line and " ".join() joins the prime numbers into a
         # single space-separated string
+
+# Conclusion  -|
+# -------------|
+# In this Week 1 assignment, the use of loops, modular arithmetic, input validation, and formatted printing – essential for any beginner.
