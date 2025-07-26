@@ -1,3 +1,9 @@
+# Introduction  -|
+# ---------------|
+# Python Assingnment for the week 1 while being a part of the Data Science internship team at Zeno Talent under the guidance of Aishwarya. The assignment
+# involves writing a Python program that asks for user’s name birth date, validates it, calculates their current age in years, and formats the date to a
+# European style.
+
 from datetime import datetime
 # used to import the datetime class from the datetime module which is used for date operations like parsing
 
@@ -41,3 +47,8 @@ if birth_date:
     european = birth_date.strftime("%d/%m/%Y")
     # converts the original birthdate to European date format using strftime()
     print(f"{name}, your birthdate in European format is: {european}")
+
+
+# Conclusion  -|
+# -------------|
+# In this Week 1 assignment, I worked on date parsing, string formatting, input validation, and exception handling in Python.
