@@ -70,7 +70,7 @@ def log_weather(city: str, filename: str, api_key: str):
         # closes the file after writing
         print("Weather logged successfully:", summary)
 
-api_key = "b92f289a33322bd2119008b5f2268b3f"
+api_key = "api_key"
 city = input("Enter city name: ")
 log_weather(city, "city_weather.csv", api_key)
 # calling function with city name from user and API key
@@ -79,4 +79,5 @@ log_weather(city, "city_weather.csv", api_key)
 # Conclusion  -|
 # -------------|
 # In this Week 1 assignment, I worked on provides practical exposure to working with APIs, 
+
 # JSON parsing, CSV handling, and writing modular functions in Python.
